@@ -8,6 +8,8 @@ arr2 = np.array([[1, 2],[3, 4], [5, 6]])
 def equalArr(a, b):
     if a is b:
         return True
+    else:
+        return False
 
 
 print(arr)
