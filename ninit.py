@@ -1,5 +1,13 @@
 import numpy as np
 import math as mp
+from numpy import random
+
+x = random.randint(100)
+y = random.rand()
+z=random.randint(100, size=(5))
+print(z) 
+print(x) 
+print(y) 
 
 arr = np.array([1, 2, 3, 4, 5])
 arr1 = np.array([[1, 2],[3, 4]])
