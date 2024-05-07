@@ -32,12 +32,12 @@ print(matrix_3)
 
 def time_matmul(x):
     start = time.time()
-    for loop in range(10):
+    for loop in range(2):
         tf.linalg.matmul(x, x)
 
     result = time.time()-start
 
-    print("10 loops: {:0.2f}ms".format(1000*result))
+    print("2 loops: {:0.2f}ms".format(1000*result))
 
 
 # Force execution on CPU
